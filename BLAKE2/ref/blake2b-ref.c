@@ -14,8 +14,7 @@
 */
 
 #include <stdint.h>
-#include <string.h>
-#include <stdio.h>
+#include "my_string.h"
 
 #include "blake2.h"
 #include "blake2-impl.h"

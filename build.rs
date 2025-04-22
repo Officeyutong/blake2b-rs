@@ -21,6 +21,7 @@ fn main() {
     } else {
         let bindings = bindings_builder
             .header("BLAKE2/ref/blake2.h")
+            .clang_arg("-fvisibility=default")
             .generate()
             .expect("unable to generate bindings");
         bindings
